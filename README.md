@@ -12,13 +12,13 @@ A simple and intuitive note-taking app built with React Native and Expo. Users c
 ## 📱 Screenshots
 
 ### Home Screen
-![Home](./assets/screenshots/home-1.jpeg)
-![Home](./assets/screenshots/home-2.jpeg)
+<img src="./assets/screenshots/home-1.jpeg" alt="Home Screen" width="300" />
+<img src="./assets/screenshots/home-2.jpeg" alt="Home Screen" width="300" />
 
 ### Add Note Screen
-![Add Note](./assets/screenshots/add-note.jpeg)
+<img src="./assets/screenshots/add-note.jpeg" alt="Home Screen" width="300" />
 
 ### Reminder Screen
-![Reminder](./assets/screenshots/reminder.jpeg)
+<img src="./assets/screenshots/reminder.jpeg" alt="Home Screen" width="300" />
 
 
