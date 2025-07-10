@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Not",
+    "slug": "Not",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId":"9906c358-900e-4dcb-bf8a-50b4fb4c5cb4"
+      }
+    },
+    "fonts": {
+      "InterNormal": "../../assets./src/fonts/Inter_24pt-Medium.ttf"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "icon": "./assets/icon.png",
+      "package": "com.samet6034.Not",
+      "useNextNotificationsApi": true,
+      "permissions": ["NOTIFICATIONS", "WAKE_LOCK", "SCHEDULE_EXACT_ALARM"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "androidMode": {
+            "channelId": "reminders",
+            "channelName": "notHatirlatici",
+            "importance": "HIGH"
+          },
+          "sound": false
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
